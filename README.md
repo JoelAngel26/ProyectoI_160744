@@ -29,6 +29,10 @@ _Sistema de justificantes escolares es facilitar la administración y solicitud 
 |Oriana Rosalba Rodríguez Lugo|Documentador||27/06/2019||
 |Rolando Rosas Andres|Diseñador||27/06/2019||
 
+## jajaj
+_La fibra óptica es un medio flexible y delgado (de 2 a 125 micrones) capaz de confinar un haz de naturaleza óptica. Para su construcción se pueden utilizar una diversidad de cristales y plásticos. Las perdidas menores se han conseguido con la utilización de fibras de silicio ultrapuro y fundido. Las fibras ultrapuras son muy difíciles de fabricar; las fibras de cristal multicomponente son más económicas y, aunque sufren mayores pérdidas, proporcionan unas prestaciones suficientes. La fibra de plástico tiene todavía un coste menor, pudiendo ser utilizadas en enlaces de distancias más cortas, en los que sean aceptables perdidas moderadamente altas.
+Un cable de fibra óptica tiene forma cilíndrica y está formado por tres secciones concéntricas: el núcleo, el revestimiento y la cubierta. El núcleo es la sección más interna: está construido por una o varias fibras de cristal o de plásticos, con un diámetro entre 8 a 100 micrones. Cada fibra está rodeada por su propio revestimiento, que no es sino otro cristal o plástico con propiedades ópticas distintas a las del núcleo. La separación entre el núcleo y el revestimiento actúan como un reflector, confinando así el haz de la luz, ya que de otra manera escaparía del núcleo. La capa más exterior que envuelve a unos o varios revestimientos es la cubierta. La cubierta está hecha de plástico y otros materiales dispuestos en capas para proporcionar protección contra la humedad, la abrasión, posibles aplastamientos y otros peligros._ 
+
 ## Comenzando 🚀
 
 _Para contribuir en este proyecto los integrantes deberan seguir las instrucciones para poder una copia en su maquina local para propósitos de desarrollo y pruebas._
