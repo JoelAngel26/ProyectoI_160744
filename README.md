@@ -29,9 +29,68 @@ _Sistema de justificantes escolares es facilitar la administración y solicitud 
 |Oriana Rosalba Rodríguez Lugo|Documentador||27/06/2019||
 |Rolando Rosas Andres|Diseñador||27/06/2019||
 
-## jajaj
-_La fibra óptica es un medio flexible y delgado (de 2 a 125 micrones) capaz de confinar un haz de naturaleza óptica. Para su construcción se pueden utilizar una diversidad de cristales y plásticos. Las perdidas menores se han conseguido con la utilización de fibras de silicio ultrapuro y fundido. Las fibras ultrapuras son muy difíciles de fabricar; las fibras de cristal multicomponente son más económicas y, aunque sufren mayores pérdidas, proporcionan unas prestaciones suficientes. La fibra de plástico tiene todavía un coste menor, pudiendo ser utilizadas en enlaces de distancias más cortas, en los que sean aceptables perdidas moderadamente altas.
-Un cable de fibra óptica tiene forma cilíndrica y está formado por tres secciones concéntricas: el núcleo, el revestimiento y la cubierta. El núcleo es la sección más interna: está construido por una o varias fibras de cristal o de plásticos, con un diámetro entre 8 a 100 micrones. Cada fibra está rodeada por su propio revestimiento, que no es sino otro cristal o plástico con propiedades ópticas distintas a las del núcleo. La separación entre el núcleo y el revestimiento actúan como un reflector, confinando así el haz de la luz, ya que de otra manera escaparía del núcleo. La capa más exterior que envuelve a unos o varios revestimientos es la cubierta. La cubierta está hecha de plástico y otros materiales dispuestos en capas para proporcionar protección contra la humedad, la abrasión, posibles aplastamientos y otros peligros._ 
+## 1.	Propósito 
+
+_A raíz de la problemática en las instituciones escolares, la falta un sistema que apoye a la expedición de justificantes, ya que en ocasiones los alumnos tienen que justificar sus faltas por diferentes motivos: Asuntos familiares, asuntos de salud o algún otro percance que no le permita al alumno asistir a clases. Se encontró una solución, desarrollar un sistema que permita a los alumnos solicitarlo mediante en línea (página web o sistema web). 
+Esta idea surge de una problemática la cual consistía de una inexistencia de un sistema que genere comprobantes que justifiquen las faltas a clases de los alumnos.  Se aspira a realizar un sistema que sea utilizable por la comunidad estudiantil, que se aplique su uso al área de Ingeniería en Tecnologías de la Información y Comunicación, para ser más específicos. Será un sistema el cual haga el remplazo de los “justificantes” convencionales. Contrario a esto, el sistema podrá generar “justificantes digitales”. Resolviendo así pérdida de tiempo, falsificaciones de firmas, un historial de inasistencias de los alumnos. Además, el justificante podrá generarse._ 
+
+## 2.	Alcance del producto / Software 
+
+_El alcance del sistema de justificantes escolares es facilitar la administración y solicitud de justificantes para los alumnos, de esta manera serian beneficiaros los alumnos, ya que no tendrían que solicitar el formato al tutor, para los tutores, solo tendrían que validar el justificante del alumno, una de las metas que se desean alcanzar es poder implementar una tecnología a este tipo de trámites convencionales que existen, así como también, tener un mejor control de los justificantes._
+
+## 3.	Referencias
+_Para llevar acabo este proyecto, se tomó como referencia, la norma ISO 9001 ya que esta es una norma que se aplica en los sistemas de gestión de calidad, para dar satisfacción al cliente, de esta manera, hacer un proyecto de manera adecuada, demostrando que lo importante es mostrar un buen trabajo, así como también se hizo tomo en cuenta. También se tomo como referencia, el sistema se estadías que se utiliza actualmente en la universidad, esto para automatizar un proceso que se lleva día con día._
+
+## 4.	Funcionalidades del producto
+
+* El sistema debe gestionar el proceso de expedición de justificantes para los alumnos desde cualquier dispositivo.
+* Debe poder liberar justificantes con fechas múltiples y múltiples materias en caso que se requiera.
+* El sistema debe permitir acceder al tutor para agregar únicamente a sus alumnos correspondientes.
+*	El sistema debe permitir actualizar la información en caso de existir errores 
+*	El sistema debe permitir imprimir el justificante una vez aprobado por el asesor en caso que sea requerido. 
+*	EL sistema debe ser web debe ser accesible para cualquier navegador.
+*	El sistema enviará una notificación cuando se registre alguna de las siguientes transacciones: Solicitud de un justificante o bien para la aprobación del tutor del alumno solicitante.
+* El sistema permitirá aprobar, cambiar o actualizar la información en un justificante que aún no haya sido liberado. 
+*	El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados. Los usuarios deben ingresar al sistema con un nombre de usuario y contraseña. 
+
+## 5.	Clases y características de usuarios
+
+*	Administrador (Solo existirá 1)
+..*	Encargado de agregar a los docentes
+..*	Modificar información de los docentes
+..*	Cancelar justificantes o Eliminar justificantes
+*	Tutores (Puede variar el número de tutores)
+..*	Aprobar justificantes (Modificar estatus)
+..*	Agregar a sus alumnos al sistema
+..*	Modificar información del justificante
+*	Alumnos (Puede variar el número de alumnos que pertenecen a cada tutor)
+..*	Solicitar justificante
+..*	Modificar en cualquier momento la información del justificante antes de la aprobación.
+..*	Bajar el justificante
+*	Director de Carrera
+..*	Encargado de validar el justificante
+..*	Firma de enterado 
+*	Padre de Familia
+..*	Encargado de firmar justificante de enterado
+
+## 6.	Entorno operativo
+
+*	MySQL Workbench: Herramienta visual de diseño de bases de datos que integra desarrollo de software, administración de bases de datos, diseño de bases de datos, gestión y mantenimiento para el sistema de base de datos MySQL.
+
+*	NetBans 8.2: Entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java.
+
+*	Windows 10: Sistema operativo en que será montado el sistema.
+
+*	Java JSP: Tecnología  que ayuda a los desarrolladores de software a crear páginas web dinámicas basadas en HTML y XML, entre otros tipos de documentos. JSP es similar a PHP, pero usa el lenguaje de programación Java.
+
+*	Tecnología Web Services: Vía de intercomunicación e interoperabilidad entre máquinas conectadas en Red. En el mundo de Internet se han popularizado enormemente, ya se trate de web services públicos o privados.
+
+*	Android: Es el entorno de desarrollo integrado (IDE) oficial para el desarrollo de aplicaciones para Android y se basa en IntelliJ IDEA . Además del potente editor de códigos y las herramientas para desarrolladores de IntelliJ, Android Studio ofrece aún más funciones que aumentan tu productividad durante la compilación de apps para Android.
+*	Navegador Web: Software (programa) que permite que te puedas conectar a Internet y puedas visitar diferentes webs. Su funcionalidad básica es interpretar y mostrar la información (texto, multimedia, ...) para que la puedas visualizar. 
+
+*	MySQL Server: Sistema de gestión de base de datos relacional (RDBMS) de código abierto, basado en lenguaje de consulta estructurado (SQL).
+
+*	GlassFish: Servidor de aplicaciones de software libre desarrollado por Sun Microsystems, compañía adquirida por Oracle Corporation, que implementa las tecnologías definidas en la plataforma Java EE y permite ejecutar aplicaciones que siguen esta especificación.
 
 ## Comenzando 🚀
 
