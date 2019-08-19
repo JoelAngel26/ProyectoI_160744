@@ -56,22 +56,22 @@ _Para llevar acabo este proyecto, se tomó como referencia, la norma ISO 9001 ya
 ## 5.	Clases y características de usuarios
 
 1.	Administrador (Solo existirá 1)
-  *	Encargado de agregar a los docentes
-  *	Modificar información de los docentes
-  *	Cancelar justificantes o Eliminar justificantes
+    *	Encargado de agregar a los docentes
+    *	Modificar información de los docentes
+    *	Cancelar justificantes o Eliminar justificantes
 2.	Tutores (Puede variar el número de tutores)
-  *	Aprobar justificantes (Modificar estatus)
-  *	Agregar a sus alumnos al sistema
-  *	Modificar información del justificante
+    *	Aprobar justificantes (Modificar estatus)
+    *	Agregar a sus alumnos al sistema
+    *	Modificar información del justificante
 3.	Alumnos (Puede variar el número de alumnos que pertenecen a cada tutor)
-  *	Solicitar justificante
-  *	Modificar en cualquier momento la información del justificante antes de la aprobación.
-  *	Bajar el justificante
+    *	Solicitar justificante
+    *	Modificar en cualquier momento la información del justificante antes de la aprobación.
+    *	Bajar el justificante
 4.	Director de Carrera
-  *	Encargado de validar el justificante
-  *	Firma de enterado 
+    *	Encargado de validar el justificante
+    *	Firma de enterado 
 5.	Padre de Familia
-  *	Encargado de firmar justificante de enterado
+    *	Encargado de firmar justificante de enterado
 
 ## 6.	Entorno operativo
 
