@@ -10,9 +10,10 @@ _Sistema de justificantes escolares es facilitar la administración y solicitud 
 |-----|-------|-----|------------|-----------|
 |27/06/2019|1|Oriana Rosalba Rodríguez Lugo, Joel Angel Hernández Vázquez , Julio  Torrez Nicolás y Rolando Rosas Andres | **SOFTECH**|Errores de referencia |
 
+
 ## Información del proyecto 
 
-|ss|sss|
+|||
 |--------|----------|
 |Empresa / Organización |**SOFTECH**|
 |Proyecto | JustifiDigital |
@@ -116,34 +117,34 @@ _Para llevar acabo este proyecto, se tomó como referencia, la norma ISO 9001 ya
 
 ## 9.	Requerimientos de interfaces externas
 
-### 9.1.	Interfaces de usuario 
+### 9.1.	Interfaces de usuario (Sistema Web)
 
-**Pantalla que el sistema a mostrará al usuario para ingresar al sistema.**
+**Pantalla que el sistema mostrará a los usuarios para ingresar al sistema.**
 ![Imagen de logueo](Documentacion/Interfaces_web/Diapositiva1.PNG "Logueo de usuario")
 
-**Pantalla que el sistema a mostrará al usuario al ingresar mal sus datos.**
+**Pantalla que el sistema mostrará a los usuarios al ingresar mal sus datos.**
 ![Imagen de error de datos](Documentacion/Interfaces_web/Diapositiva2.PNG "Logueo de usuario incorrecto")
 
-**Pantalla que el sistema a mostrará al usuario (alumno) para solicitar un justificante.**
+**Pantalla que el sistema mostrará al usuario (alumno) para solicitar un justificante.**
 ![Imagen de solicitud de justificante](Documentacion/Interfaces_web/Diapositiva3.PNG "Solicitud de justificante")
 
-**Pantalla que el sistema a mostrará al usuario (alumno) para llenar el formato de justificante.**
+**Pantalla que el sistema mostrará al usuario (alumno) para llenar el formato de justificante.**
 ![Imagen del formato de justificante](Documentacion/Interfaces_web/Diapositiva4.PNG "Formato de justificante")
 
-**Pantalla que el sistema a mostrará al usuario (alumno) el estatus del justificante.**
+**Pantalla que el sistema mostrará al usuario (alumno) el estatus del justificante.**
 ![Imagen del estatus del justificante](Documentacion/Interfaces_web/Diapositiva5.PNG "Estatus del justificante")
 
-**Pantalla que el sistema a mostrará al usuario (tutor) la interfaz del tutor.**
+**Pantalla que el sistema mostrará al usuario (tutor) la interfaz del tutor.**
 ![Imagen interfaz del tutor](Documentacion/Interfaces_web/Diapositiva6.PNG "Interfaz del tutor")
 
-**Pantalla que el sistema a mostrará al alumno d.**
-![Imagen de logueo(Documentacion/Interfaces_web/Diapositiva7.PNG "Logueo de usuario")
+**Pantalla que el sistema mostrará al usuario (tutor) la aprobación del justificante.**
+![Imagen aprobación del tutor](Documentacion/Interfaces_web/Diapositiva7.PNG "Aprobación del tutor al justificante")
 
-**Pantalla que el sistema a mostrará al alumno después de haberse logueado.**
-![Imagen de logueo(Documentacion/Interfaces_web/Diapositiva8.PNG "Logueo de usuario")
+**Pantalla que el sistema mostrará al usuario (director) la interfaz del director.**
+![Imagen interfaz del director](Documentacion/Interfaces_web/Diapositiva8.PNG "Interfaz del director")
 
-**Pantalla que el sistema a mostrará al alumno después de haberse logueado.**
-![Imagen de logueo(Documentacion/Interfaces_web/Diapositiva9.PNG "Logueo de usuario")
+**Pantalla que el sistema mostrará al usuario (director) la aprobación del justificante.**
+![Imagen aprobación del director](Documentacion/Interfaces_web/Diapositiva9.PNG "Aprobación del director al justificante")
 
 ### 9.2.	Interfaces de hardware
 
@@ -164,6 +165,17 @@ _El sistema tiene interacción de forma directa con algunas herramientas de soft
 
 _HTTPS (protocolo de Transferencia de Hiper-Texto) es un protocolo que permite establecer una conexión segura entre el servidor y el cliente, que no puede ser interceptada por personas no autorizadas. En resumidas cuentas, es la versión segura del http (Hyper Text Transfer Protocol)._
 _Navegador a utilizar Google Chrome es el navegador web de Google. Este navegador web, desarrollado en el proyecto Chromium, está basado en código abierto y utiliza el motor de renderizado Webkit. Google Chrome funciona sobre el sistema operativo Windows y en versión beta se puede encontrar para Mac y Linux._
+
+### 9.5. Interfaces de usuario (Aplicación móvil)
+
+**Pantallas que la aplicación mostrará a los usuarios para ingresar a la aplicación y solicitar un justificante.**
+![Imagenes de logueo y solicitud](Documentacion/Interfaces_moviles/Diapositiva1.PNG "Logueo y soicitud")
+
+**Pantallas que la aplicación mostrará a los usuarios (alumno y tutor) el formato a llenar del justificante, el estatus del justificante y la interfaz del tutor.**
+![Imagenes del formato y estatus del justificate e interfaz del tutor](Documentacion/Interfaces_moviles/Diapositiva2.PNG "Formato y estatus del justificante e interfaz del tutor")
+
+**Pantallas que la aplicación mostrará a los usuarios (tutor y director) para validar el justificante.**
+![Imagenes validación del justificante](Documentacion/Interfaces_moviles/Diapositiva3.PNG "Validación del tutor y director al justificante")
 
 ## 10.	Requerimientos no funcionales
 
@@ -189,6 +201,7 @@ _Navegador a utilizar Google Chrome es el navegador web de Google. Este navegado
 *	SQL: Es un lenguaje declarativo estándar internacional de comunicación dentro de las bases de datos que nos permite a todos el acceso y manipulación de datos en una base de datos, y además se puede integrar a lenguajes de programación.
 
 
+---
 ## Comenzando 🚀
 
 _Para contribuir en este proyecto los integrantes deberan seguir las instrucciones para poder una copia en su maquina local para propósitos de desarrollo y pruebas._
@@ -205,10 +218,10 @@ _Para contribuir en este proyecto los integrantes deberan seguir las instruccion
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-**IDE Netbeans 8.2**
-**Editor de Texto Sublime Text o otro programa afin**
-**Procesadores de Texto WORD**
-**Manipulación de imagenes como Corel Draw, photoshop o programa afin**
+IDE Netbeans 8.2
+Editor de Texto Sublime Text u otro programa afin
+Procesadores de Texto WORD
+Manipulación de imagenes como Corel Draw, photoshop u programa afin
 ```
 
 
@@ -260,7 +273,7 @@ _Personas que ayudaron a levantar el proyecto desde sus inicios_
 * **Joel Angel Hernández Vázquez** - *Analista* - [JoelAngel26](https://github.com/JoelAngel26)
 * **Oriana Rosalba Rodríguez Lugo** - *Documentador* - [OrianaRosalba1203](https://github.com/OrianaRosalba1203)
 * **Rolando Rosas Andres** - *Diseñador* - [RolandoRosas](https://github.com/RolandoRosas)
-* **MTI. Marco Antonio Ramirez** - *Docente* - [fulanitodetal](https://github.com/Julio160271)
+* **MTI. Marco Antonio Ramirez** - *Docente*  [](https://github.com/...)
 
 ## Licencia 📄
 
@@ -277,5 +290,5 @@ Este proyecto está bajo la Licencia (Equipo 3 JustifiDigital) - mira el archivo
 ---
 ⌨️ con ❤️ por [JulioTorres160271](https://github.com/Julio160271) 😊
 
-![Imagen de la empresa](Documentacion/Logos/Softech(Empresarial).png "Lodo de la empresa") 
+![Imagen de la empresa](Documentacion/Logos/Softech(Empresarial).png "Logo de la empresa") 
 **Programando el Exito**
