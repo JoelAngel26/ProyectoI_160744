@@ -1,5 +1,7 @@
 # JustifiDigital
-![Imagen del Proyecto](Documentación/Logos/JustifiDigital(Proyecto).jpg "Logo del proyecto")
+
+![Imagen del Proyecto](Documentacion/Logos/Justifidigital(Proyecto).jpg "Logo del proyecto")
+
 _Sistema de justificantes escolares es facilitar la administración y solicitud de justificantes para los alumnos, de esta manera serian beneficiaros los alumnos, ya que no tendrían que solicitar el formato al tutor, para los tutores, solo tendrían que validar el justificante del alumno, una de las metas que se desean alcanzar es poder implementar una tecnología a este tipo de trámites convencionales que existen, así como también, tener un mejor control de los justificantes._
 
 ## Historial de versiones
@@ -92,11 +94,106 @@ _Para llevar acabo este proyecto, se tomó como referencia, la norma ISO 9001 ya
 
 *	GlassFish: Servidor de aplicaciones de software libre desarrollado por Sun Microsystems, compañía adquirida por Oracle Corporation, que implementa las tecnologías definidas en la plataforma Java EE y permite ejecutar aplicaciones que siguen esta especificación.
 
+## 7.	Requerimientos funcionales
+
+*	Debe poder liberar justificantes con fechas múltiples y múltiples materias en caso que se requiera.
+*	El sistema controlará el acceso y lo permitirá solamente a usuarios autorizados. Los usuarios deben ingresar al sistema con un nombre de usuario y contraseña.
+*	El sistema debe permitir acceder al tutor únicamente a sus alumnos correspondientes.
+*	El sistema debe permitir actualizar la información en caso de existir errores 
+*	El sistema debe permitir imprimir el justificante una vez aprobado por el asesor. 
+*	El sistema debe ser web, para mayor accesibilidad desde cualquier punto de la región.
+*	El sistema tendrá un mecanismo de envió de alertas y notificaciones después de un evento especifico.
+*	Los integrantes del grupo de usuario de administradores no pueden ingresar o aprobar solicitudes, pero si pueden borrarlas.
+*	Cualquier intercambio de datos vía internet que realice el software se realizará por medio del protocolo encriptado HTTP.
+
+## 8.	Reglas de negocio
+
+*	El usuario necesita estar correctamente logueado en el sistema para tener acceso al módulo de justificantes.
+*	El sistema debe presentar al tutor únicamente los alumnos que están registrados en su curso.
+*	El sistema deberá permitir modificar un registro existente en caso de que se requiera actualizar la información.
+*	El sistema enviará una alerta al administrador del sistema cuando ocurra alguno de los siguientes eventos: Registro de nueva cuenta, ingreso al sistema por parte del cliente, 2 o más intentos fallidos en el ingreso de la contraseña de usuario y cambio de contraseña de usuario.
+*	El sistema no dejara que otro usuario.
+
+## 9.	Requerimientos de interfaces externas
+
+### 9.1.	Interfaces de usuario 
+
+**Pantalla que el sistema a mostrará al usuario para ingresar al sistema.**
+![Imagen de logueo](Documentacion/Interfaces_web/Diapositiva1.PNG "Logueo de usuario")
+
+**Pantalla que el sistema a mostrará al usuario al ingresar mal sus datos.**
+![Imagen de error de datos](Documentacion/Interfaces_web/Diapositiva2.PNG "Logueo de usuario incorrecto")
+
+**Pantalla que el sistema a mostrará al usuario (alumno) para solicitar un justificante.**
+![Imagen de solicitud de justificante](Documentacion/Interfaces_web/Diapositiva3.PNG "Solicitud de justificante")
+
+**Pantalla que el sistema a mostrará al usuario (alumno) para llenar el formato de justificante.**
+![Imagen del formato de justificante](Documentacion/Interfaces_web/Diapositiva4.PNG "Formato de justificante")
+
+**Pantalla que el sistema a mostrará al usuario (alumno) el estatus del justificante.**
+![Imagen del estatus del justificante](Documentacion/Interfaces_web/Diapositiva5.PNG "Estatus del justificante")
+
+**Pantalla que el sistema a mostrará al usuario (tutor) la interfaz del tutor.**
+![Imagen interfaz del tutor](Documentacion/Interfaces_web/Diapositiva6.PNG "Interfaz del tutor")
+
+**Pantalla que el sistema a mostrará al alumno d.**
+![Imagen de logueo(Documentacion/Interfaces_web/Diapositiva7.PNG "Logueo de usuario")
+
+**Pantalla que el sistema a mostrará al alumno después de haberse logueado.**
+![Imagen de logueo(Documentacion/Interfaces_web/Diapositiva8.PNG "Logueo de usuario")
+
+**Pantalla que el sistema a mostrará al alumno después de haberse logueado.**
+![Imagen de logueo(Documentacion/Interfaces_web/Diapositiva9.PNG "Logueo de usuario")
+
+### 9.2.	Interfaces de hardware
+
+_El sistema soportara los siguientes dispositivos para hacer uso de el:_
+
+*	Computadoras, con sistema operativo superior al Windows 8.
+*	Dispositivos móviles con sistema operativo Android.
+
+### 9.3.	Interfaces de software
+
+_El sistema tiene interacción de forma directa con algunas herramientas de software:_
+
+*	IDE de programación NetBeans.
+*	Paquete de software libre Xammp (gestión de base de datos MySQL, servidor Apache, etc.).
+*	Frameworks (Hibernate y Bootstrap).
+
+### 9.4.	Interfaces de comunicación
+
+_HTTPS (protocolo de Transferencia de Hiper-Texto) es un protocolo que permite establecer una conexión segura entre el servidor y el cliente, que no puede ser interceptada por personas no autorizadas. En resumidas cuentas, es la versión segura del http (Hyper Text Transfer Protocol)._
+_Navegador a utilizar Google Chrome es el navegador web de Google. Este navegador web, desarrollado en el proyecto Chromium, está basado en código abierto y utiliza el motor de renderizado Webkit. Google Chrome funciona sobre el sistema operativo Windows y en versión beta se puede encontrar para Mac y Linux._
+
+## 10.	Requerimientos no funcionales
+
+*	El sistema debe ser capaz de operar adecuadamente con hasta 100.000 usuarios con sesiones concurrentes.
+*	Los datos modificados en la base de datos deben ser actualizados para todos los usuarios que acceden en menos de 2 segundos.
+*	El sistema deberá presentar una interfaz por cada usuario correspondiente.
+*	El sistema deberá ser accesible para cualquier dispositivo.
+*	El sistema debe proporcionar mensajes de error que sean informativos y orientados a usuario final.
+*	El sistema debe asegurar que los datos estén protegidos del acceso no autorizado.
+*	La aplicación web debe poseer un diseño “Responsive” a fin de garantizar la adecuada visualización en múltiples computadores personales, dispositivos tableta y teléfonos inteligentes.
+
+## 11.	Otros requerimientos
+
+*	El sistema no hará uso de los datos de los usuarios para propósitos externos al funcionamiento del mismo (buen manejo de la información).
+*	El sistema tendrá licencia únicamente para el usuario final sin fines de ventas.
+*	El plazo para el mantenimiento del sistema será llevado a cabo estrictamente al tiempo acordado con el cliente.
+*	El sistema sólo podrá ser modificado con la aprobación del cliente y la del líder del equipo, esto mientras no expire el tiempo de licencia.
+
+## 12.	Glosario
+
+*	HTTPS: protocolo de Transferencia de Hiper-Texto.
+*	RDBMS: Un sistema de gestión de bases de datos relacionales (RDBMS) es un programa que te permite crear, actualizar y administrar una base de datos relacional.
+*	SQL: Es un lenguaje declarativo estándar internacional de comunicación dentro de las bases de datos que nos permite a todos el acceso y manipulación de datos en una base de datos, y además se puede integrar a lenguajes de programación.
+
+
 ## Comenzando 🚀
 
 _Para contribuir en este proyecto los integrantes deberan seguir las instrucciones para poder una copia en su maquina local para propósitos de desarrollo y pruebas._
 
-**Clonar el proyecto en un repositorio local** https://github.com/Julio160271/JustifiDigital_MW.git.
+**Clonar el proyecto en un repositorio local** <https://github.com/Julio160271/Integradora_JustifiDigital.git>
 **Crear los ramales correspondientes para pruebas**
 **Hacer las modificaciones necesarias**
 **Probar los cambios que sean funcionales**
@@ -159,11 +256,11 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Personas que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Julio Torres Nicolás** - *Trabajo Inicial Programador* - [JulioTorres](https://github.com/Julio160271)
-* **Joel Angel Hernandez Vazquez** - *Analista* - [fulanitodetal](#fulanito-de-tal)
-* **Oriana** - *Documentador* - [fulanitodetal](#fulanito-de-tal)
-* **Rolando Rosas** - *Diseñador* - [fulanitodetal](#fulanito-de-tal)
-* **MTI. Marco Antonio Ramirez** - *Docente* - [fulanitodetal](#fulanito-de-tal)
+* **Julio Torres Nicolás** - *Trabajo Inicial Programador* - [Julio160271](https://github.com/Julio160271)
+* **Joel Angel Hernández Vázquez** - *Analista* - [JoelAngel26](https://github.com/JoelAngel26)
+* **Oriana Rosalba Rodríguez Lugo** - *Documentador* - [OrianaRosalba1203](https://github.com/OrianaRosalba1203)
+* **Rolando Rosas Andres** - *Diseñador* - [RolandoRosas](https://github.com/RolandoRosas)
+* **MTI. Marco Antonio Ramirez** - *Docente* - [fulanitodetal](https://github.com/Julio160271)
 
 ## Licencia 📄
 
@@ -173,12 +270,12 @@ Este proyecto está bajo la Licencia (Equipo 3 JustifiDigital) - mira el archivo
 
 * Agradecimiento a la contribución de nuestros conocimientos al Maestro Marco Antonio Ramirez.📢
 * Agradecimiento al equipo 3 de la Materia Integradora. 
-* Agradecimientos para nuestros compañeros del grupo 9B.
+* Agradecimientos para nuestros compañeros del grupo 9 "B".
 
 
 
 ---
 ⌨️ con ❤️ por [JulioTorres160271](https://github.com/Julio160271) 😊
 
-![Imagen de la empresa](Logos/Softech.png "Empresa") 
+![Imagen de la empresa](Documentacion/Logos/Softech(Empresarial).png "Lodo de la empresa") 
 **Programando el Exito**
